@@ -1,0 +1,15 @@
+{
+  "name": "node-githooks-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:githooks" : "node ./node_modules/node-githooks/libs/install.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-githooks": "git://github.com/nyamogera/node-githooks.git"
+  }
+}
